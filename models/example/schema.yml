@@ -1,8 +1,7 @@
-
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: crm_model
     description: "A starter dbt model"
     columns:
       - name: id
