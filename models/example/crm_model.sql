@@ -10,7 +10,7 @@
 {{ config(materialized='table') }}
 
 select *
-from contact
+from {{ source('edi_bc795e510434494793ccea2d231a3c65_h8zhkp3eopdx', 'contact') }}
 
 /*
     Uncomment the line below to remove records with null `id` values

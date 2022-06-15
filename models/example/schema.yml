@@ -1,5 +1,12 @@
 version: 2
 
+sources:
+  - name: edi_bc795e510434494793ccea2d231a3c65_h8zhkp3eopdx
+
+    tables:
+      - name: contact
+      - name: account
+
 models:
   - name: crm_model
     description: "A starter dbt model"
