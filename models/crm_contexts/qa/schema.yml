@@ -1,0 +1,13 @@
+version: 2
+
+# Fivetran looks here to determine which connector sync triggers dbt run of the model
+sources:
+  - name: edi_bc795e510434494793ccea2d231a3c65_h8zhkp3eopdx
+    tables:
+      - name: contact
+      - name: lead
+
+  - name: edi_bc795e510434494793ccea2d231a3c65_vaalah5lhyqw
+    tables:
+      - name: contact
+      - name: lead
